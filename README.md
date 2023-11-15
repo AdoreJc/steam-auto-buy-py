@@ -22,3 +22,55 @@ python autobuy.py
 添加SDA之前需要移除手机验证器
 
 [Steam Desktop Authenticator(SDA)](https://github.com/Jessecar96/SteamDesktopAuthenticator)
+## 货币
+
+| Currency class | Description                 |
+| ---            | ---                         |
+| Currency.USD   | United States Dollar        |
+| Currency.GBP   | United Kingdom Pound        |
+| Currency.EURO  | European Union Euro         |
+| Currency.CHF   | Swiss Francs                |
+| Currency.RUB   | Russian Rouble              |
+| Currency.PLN   | Polish Złoty                |
+| Currency.BRL   | Brazilian Reals             |
+| Currency.JPY   | Japanese Yen                |
+| Currency.NOK   | Norwegian Krone             |
+| Currency.IDR   | Indonesian Rupiah           |
+| Currency.MYR   | Malaysian Ringgit           |
+| Currency.PHP   | Philippine Peso             |
+| Currency.SGD   | Singapore Dollar            |
+| Currency.THB   | Thai Baht                   |
+| Currency.VND   | Vietnamese Dong             |
+| Currency.KRW   | South Korean Won            |
+| Currency.TRY   | Turkish Lira                |
+| Currency.UAH   | Ukrainian Hryvnia           |
+| Currency.MXN   | Mexican Peso                |
+| Currency.CAD   | Canadian Dollars            |
+| Currency.AUD   | Australian Dollars          |
+| Currency.NZD   | New Zealand Dollar          |
+| Currency.CNY   | Chinese Renminbi (yuan)     |
+| Currency.INR   | Indian Rupee                |
+| Currency.CLP   | Chilean Peso                |
+| Currency.PEN   | Peruvian Sol                |
+| Currency.COP   | Colombian Peso              |
+| Currency.ZAR   | South African Rand          |
+| Currency.HKD   | Hong Kong Dollar            |
+| Currency.TWD   | New Taiwan Dollar           |
+| Currency.SAR   | Saudi Riyal                 |
+| Currency.AED   | United Arab Emirates Dirham |
+| Currency.SEK   | Swedish Krona               |
+| Currency.ARS   | Argentine Peso              |
+| Currency.ILS   | Israeli New Shekel          |
+| Currency.BYN   | Belarusian Ruble            |
+| Currency.KZT   | Kazakhstani Tenge           |
+| Currency.KWD   | Kuwaiti Dinar               |
+| Currency.QAR   | Qatari Riyal                |
+| Currency.CRC   | Costa Rican Colón           |
+| Currency.UYU   | Uruguayan Peso              |
+| Currency.BGN   | Bulgarian Lev               |
+| Currency.HRK   | Croatian Kuna               |
+| Currency.CZK   | Czech Koruna                |
+| Currency.DKK   | Danish Krone                |
+| Currency.HUF   | Hungarian Forint            |
+| Currency.RON   | Romanian Leu                |
+
