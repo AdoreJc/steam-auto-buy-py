@@ -1,6 +1,7 @@
 # Python Steam 市场自动购买
+本项目基于 steampy 开发
 ## 安装依赖
-python 3.8 或更新
+pip 安装 [steampy](https://github.com/bukson/steampy) 需要 python 3.8 或更新
 ```
 pip install steampy
 ```
