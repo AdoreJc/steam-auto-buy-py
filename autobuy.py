@@ -96,7 +96,7 @@ while True:
             break
 
         # 建议间隔大于等于3，不然API容易被限制，被限制之后关闭脚本一段时间后再使用即可
-        time.sleep(2)
+        time.sleep(3)
 
     except TooManyRequests as e:
         print("TooManyRequests: 60s内最多请求20次")
