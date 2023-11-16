@@ -40,6 +40,12 @@ while not login_to_steam():
 # 循环检测并购买
 while True:
     try:
+        # 检测 session 是否连接
+        if not steam_client.is_session_alive:
+            while not login_to_steam():
+                print("Retrying login...")
+                time.sleep(20)
+
         # 获取物品在市场上的价格
         market_prices = steam_client.market.fetch_price(item_name, GameOptions.CS, currency=currency)
         # market_prices = {'volume': '208', 'lowest_price': '¥ 11.30', 'median_price': '$11.33 USD', 'success': True}
@@ -93,10 +99,11 @@ while True:
             # 打印成功的订单信息
             print("成功的订单:")
             print(successful_orders)
+            print("扫货结束")
             break
 
         # 建议间隔大于等于3，不然API容易被限制，被限制之后关闭脚本一段时间后再使用即可
-        time.sleep(3)
+        time.sleep(2)
 
     except TooManyRequests as e:
         print("TooManyRequests: 60s内最多请求20次")
